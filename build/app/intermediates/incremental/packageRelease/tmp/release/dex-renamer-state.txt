@@ -1,0 +1,4 @@
+#Sun Mar 12 19:04:59 EAT 2023
+base.0=/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

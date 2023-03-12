@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.2.0"
+    buildFolder="/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/app"
+    bootClassPath="/home/nonyx/Android/Sdk/platforms/android-33/android.jar:/home/nonyx/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.assignment_3"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:3:5-66
+11-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission
+12-->[:mobile_number] /home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/mobile_number/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-11:38
+13        android:name="android.permission.READ_PHONE_STATE"
+13-->[:mobile_number] /home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/mobile_number/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-59
+14        android:maxSdkVersion="29" />
+14-->[:mobile_number] /home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/mobile_number/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-35
+15    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+15-->[:mobile_number] /home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/mobile_number/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-77
+15-->[:mobile_number] /home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/mobile_number/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-74
+16
+17    <meta-data
+17-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:31:9-33:33
+18        android:name="flutterEmbedding"
+18-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:32:13-44
+19        android:value="2" />
+19-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:33:13-30
+20
+21    <permission
+21-->[androidx.core:core:1.9.0] /home/nonyx/.gradle/caches/transforms-3/5f80b20db3afa86c72a9766b008d752d/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+22        android:name="com.example.assignment_3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.9.0] /home/nonyx/.gradle/caches/transforms-3/5f80b20db3afa86c72a9766b008d752d/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.9.0] /home/nonyx/.gradle/caches/transforms-3/5f80b20db3afa86c72a9766b008d752d/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.example.assignment_3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.9.0] /home/nonyx/.gradle/caches/transforms-3/5f80b20db3afa86c72a9766b008d752d/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.9.0] /home/nonyx/.gradle/caches/transforms-3/5f80b20db3afa86c72a9766b008d752d/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+26
+27    <application
+28        android:name="android.app.Application"
+28-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:6:9-42
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.9.0] /home/nonyx/.gradle/caches/transforms-3/5f80b20db3afa86c72a9766b008d752d/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+30        android:icon="@mipmap/ic_launcher"
+30-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:7:9-43
+31        android:label="assignment_3" >
+31-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:5:9-37
+32        <activity
+32-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:8:9-28:20
+33            android:name="com.example.assignment_3.MainActivity"
+33-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:9:13-41
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:13:13-163
+35            android:exported="true"
+35-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:10:13-36
+36            android:hardwareAccelerated="true"
+36-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:14:13-47
+37            android:launchMode="singleTop"
+37-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:11:13-43
+38            android:theme="@style/LaunchTheme"
+38-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:12:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:15:13-55
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+47-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:20:13-23:17
+48                android:name="io.flutter.embedding.android.NormalTheme"
+48-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:21:15-70
+49                android:resource="@style/NormalTheme" />
+49-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:22:15-52
+50
+51            <intent-filter>
+51-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:24:13-27:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:25:17-68
+52-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:25:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:26:17-76
+54-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:26:27-74
+55            </intent-filter>
+56        </activity>
+57        <!--
+58             Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+61-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:31:9-33:33
+62            android:name="flutterEmbedding"
+62-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:32:13-44
+63            android:value="2" />
+63-->/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/android/app/src/main/AndroidManifest.xml:33:13-30
+64
+65        <uses-library
+65-->[androidx.window:window:1.0.0-beta04] /home/nonyx/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+66            android:name="androidx.window.extensions"
+66-->[androidx.window:window:1.0.0-beta04] /home/nonyx/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+67            android:required="false" />
+67-->[androidx.window:window:1.0.0-beta04] /home/nonyx/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+68        <uses-library
+68-->[androidx.window:window:1.0.0-beta04] /home/nonyx/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+69            android:name="androidx.window.sidecar"
+69-->[androidx.window:window:1.0.0-beta04] /home/nonyx/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+70            android:required="false" />
+70-->[androidx.window:window:1.0.0-beta04] /home/nonyx/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+71    </application>
+72
+73</manifest>

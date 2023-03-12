@@ -1,0 +1,40 @@
+<variant
+    name="release"
+    package="com.example.assignment_3"
+    minSdkVersion="21"
+    targetSdkVersion="33"
+    shrinking="true"
+    mergedManifest="/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    manifestMergeReport="/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/app/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.0:/home/nonyx/snap/flutter/common/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/app/intermediates/lint_vital_partial_results/release/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"
+        resDirectories="src/main/res"
+        assetsDirectories="src/main/assets"/>
+    <sourceProvider
+        manifest="src/release/AndroidManifest.xml"
+        javaDirectories="src/release/java:src/release/kotlin"
+        resDirectories="src/release/res"
+        assetsDirectories="src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/app/intermediates/javac/release/classes:/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/app/tmp/kotlin-classes/release:/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/app/kotlinToolingMetadata:/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      applicationId="com.example.assignment_3"
+      generatedSourceFolders="/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/app/generated/source/buildConfig/release:/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/app/generated/aidl_source_output_dir/release/out:/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/app/generated/renderscript_source_output_dir/release/out:/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/app/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/app/generated/res/rs/release:/home/nonyx/Documents/Books/BITSbooks/2ndYear/1stSemester/MobileApplicationDevelopment/assignments/Fitse/build/app/generated/res/resValues/release">
+  </mainArtifact>
+</variant>

@@ -1,19 +1,22 @@
 class Item {
+  int id;
   String image;
-  String foodTitle;
-  num foodPrice;
+  String title;
+  num price;
 
   Item({
+    required this.id,
     required this.image,
-    required this.foodTitle,
-    required this.foodPrice,
+    required this.title,
+    required this.price,
   });
 
   factory Item.fromJson(Map<String, dynamic> json) {
     return Item(
+      id: json['id'],
       image: json['image'],
-      foodTitle: json['title'],
-      foodPrice: json['price'],
+      title: json['title'],
+      price: json['price'],
     );
   }
 
@@ -24,5 +27,15 @@ class Item {
     }
 
     return items;
+  }
+
+  toJson() {
+    Map<String, dynamic> json = {};
+    json['id'] = id;
+    json['image'] = image;
+    json['title'] = title;
+    json['price'] = price;
+
+    return json;
   }
 }

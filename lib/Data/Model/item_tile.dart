@@ -5,23 +5,24 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class ItemTile extends StatelessWidget {
-  final int id;
   final String image;
-  final String title;
-  final num price;
+  final String foodTitle;
+  final num foodPrice;
   final bool cartButtonPressed;
 
   const ItemTile(
-      {required this.id,
-      required this.image,
-      required this.title,
-      required this.price,
+      {required this.image,
+      required this.foodTitle,
+      required this.foodPrice,
       required this.cartButtonPressed,
       super.key});
 
   @override
   Widget build(BuildContext context) {
     const String dollar_sign = "\$";
+    int index_to_remove = 0;
+    bool item_to_remove_found = false;
+    double total_price = 0;
     return BlocBuilder<CartBloc, CartState>(
       builder: (context, state) {
         return Container(
@@ -51,20 +52,40 @@ class ItemTile extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Flexible(
-                          child: Container(width: 200, child: Text(title))),
-                      Text(dollar_sign + price.toString()),
+                          child: Container(width: 200, child: Text(foodTitle))),
+                      Text(dollar_sign + foodPrice.toString()),
                     ],
                   ),
                 ),
                 IconButton(
                   onPressed: () {
-                    Item item =
-                        Item(id: id, image: image, title: title, price: price);
-                    item_ = item;
                     if (!cartButtonPressed) {
+                      Item item = Item(
+                          image: image,
+                          foodTitle: foodTitle,
+                          foodPrice: foodPrice);
+                      addedItems.add(item);
+                      calculatePrice();
                       BlocProvider.of<CartBloc>(context)
                           .add(GetDataButtonPressed());
                     } else {
+                      Item item = Item(
+                        image: image,
+                        foodTitle: foodTitle,
+                        foodPrice: foodPrice,
+                      );
+                      for (int i = 0;
+                          i < addedItems.length &&
+                              item_to_remove_found == false;
+                          i++) {
+                        if (item.foodTitle == addedItems[i].foodTitle) {
+                          index_to_remove = i;
+                          item_to_remove_found = true;
+                        }
+                      }
+                      item_to_remove_found = false;
+                      addedItems.removeAt(index_to_remove);
+                      calculatePrice();
                       BlocProvider.of<CartBloc>(context)
                           .add(RemoveDataButtonPressed());
                     }
@@ -79,5 +100,15 @@ class ItemTile extends StatelessWidget {
         );
       },
     );
+  }
+}
+
+//calculate the total price
+void calculatePrice() {
+  totalPrice = 0;
+  for (int i = 0; i < addedItems.length; i++) {
+    totalPrice += addedItems[i].foodPrice;
+    String stringTotalPrice = totalPrice.toStringAsFixed(2);
+    totalPrice = double.parse(stringTotalPrice);
   }
 }

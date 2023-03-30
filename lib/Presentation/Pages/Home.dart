@@ -53,10 +53,9 @@ class _HomeState extends State<Home> {
               itemBuilder: (context, index) {
                 final Item itemVal = state.item[index];
                 return ItemTile(
-                  id: itemVal.id,
                   image: itemVal.image,
-                  title: itemVal.title,
-                  price: itemVal.price,
+                  foodTitle: itemVal.foodTitle,
+                  foodPrice: itemVal.foodPrice,
                   cartButtonPressed: false,
                 );
               },
